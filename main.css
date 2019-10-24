@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Smash;
+  src: url('https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2');
+}
+
+body {
+  margin: 0;
+  font-family: Smash;
+}
+
+.char-name {
+  font-size: 33vh;
+  text-transform: uppercase;
+  letter-spacing: -24px;
+}
+
+.char-number {
+  font-size: 13vh;
+  letter-spacing: -5px;
+}
+
+#fighter {
+  position: relative;
+}
+
+#char.image {
+ position: absolute;
+ top: 0;
+}
